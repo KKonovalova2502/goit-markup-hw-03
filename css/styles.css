@@ -1,15 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: ;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* #region header */
+
+.header {
+}
+
+.nav {
 }
 
 .logo-accent {
@@ -26,7 +61,13 @@ a {
   color: #2e2f42;
 }
 
-.list {
+.nav-list {
+}
+
+.nav-item {
+}
+
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -34,8 +75,8 @@ a {
   color: #2e2f42;
 }
 
-.list:hover,
-.list:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -43,7 +84,13 @@ a {
   font-style: normal;
 }
 
+.contact-list {
+}
+
 .contact-item {
+}
+
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -51,10 +98,14 @@ a {
   color: #434455;
 }
 
-.contact-item:hover,
-.contact-item:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
+
+/* #endregion */
+
+/* #region hero */
 
 .hero {
   background-color: #2e2f42;
@@ -83,8 +134,34 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+/* #endregion */
+
+/* #region advantage */
 
 .advantage {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantage-list {
+}
+
+.advantage-item {
+}
+
+.advantage-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -92,12 +169,16 @@ a {
   color: #2e2f42;
 }
 
-.text {
+.advantage-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* #endregion */
+
+/* #region team */
 
 .team {
   background-color: #f4f4fd;
@@ -114,11 +195,14 @@ a {
   text-transform: capitalize;
 }
 
-.card {
+.team-list {
+}
+
+.team-item {
   background-color: #ffffff;
 }
 
-.name-team {
+.team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -133,7 +217,14 @@ a {
   letter-spacing: 0.02em;
 }
 
+/* #endregion */
+
+/* #region portfolio */
+
 .portfolio {
+}
+
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -143,7 +234,13 @@ a {
   text-transform: capitalize;
 }
 
-.product {
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,24 +248,31 @@ a {
   color: #2e2f42;
 }
 
-.type-product {
+.portfolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.down-page {
+/* #endregion */
+
+/* #region footer */
+
+.footer {
   background-color: #2e2f42;
 }
 
 .logo-footer {
   color: #f4f4fd;
 }
-.down-page-text {
+
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* #endregion */
