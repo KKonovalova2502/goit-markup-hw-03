@@ -55,7 +55,7 @@ a {
   align-items: center;
 }
 
-.logo-accent {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -70,7 +70,7 @@ a {
   margin-right: 76px;
 }
 
-.logo {
+.logo-up {
   color: #2e2f42;
 }
 
@@ -143,7 +143,7 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
 
@@ -157,8 +157,10 @@ a {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -244,7 +246,7 @@ a {
 }
 
 .team-text {
-  margin: 32px 16px;
+  margin: 32px 0;
   text-align: center;
 }
 
@@ -294,9 +296,9 @@ a {
 }
 
 .portfolio-signature {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
@@ -329,7 +331,7 @@ a {
   margin-bottom: 16px;
 }
 
-.logo-footer {
+.logo-down {
   color: #f4f4fd;
 }
 
